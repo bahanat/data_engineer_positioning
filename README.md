@@ -31,27 +31,27 @@ project/
 
 ### 0. Setup PostgreSQL in WSL (optional if you want to use something else)
 
-#### 1. Update your package
+#### a. Update your package
 ```bash
 sudo apt update
 ```
 
-#### 2. Install PostgreSQL and its contrib package
+#### b. Install PostgreSQL and its contrib package
 ```bash
 sudo apt install postgresql postgresql-contrib
 ```
 
-#### 3. Verify the installation
+#### c. Verify the installation
 ```bash
 psql --version
 ```
 
-#### 4. Start the PostgreSQL service
+#### d. Start the PostgreSQL service
 ```bash
 sudo service postgresql start
 ```
 
-#### 5. Set a password for the default 'postgres' user
+#### e. Set a password for the default 'postgres' user
 ```bash
 sudo passwd postgres
 ```
