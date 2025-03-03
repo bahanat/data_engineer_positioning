@@ -24,7 +24,8 @@ project/
 │   └── update_order_total_price.sql
 │
 ├── README.md
-└── tables_creation.sql                 # SQL requests to create the different tables
+├── tables_creation.sql                 # SQL requests to create the different tables
+└── uml_and_explanation.pdf             # PDF file with UML diagram and detailed explanation
 ```
 
 ## How to
